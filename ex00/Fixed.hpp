@@ -6,7 +6,7 @@
 /*   By: aweaver <aweaver@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 09:18:17 by aweaver           #+#    #+#             */
-/*   Updated: 2022/11/16 11:41:06 by aweaver          ###   ########.fr       */
+/*   Updated: 2022/11/16 16:06:55 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,5 @@ class Fixed
 		int	_raw;
 		static const int	_bitSize = 8;
 };
-
-std::ostream & operator<<(std::ostream &flow, Fixed &fixed);
 
 # endif

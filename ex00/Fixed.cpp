@@ -6,7 +6,7 @@
 /*   By: aweaver <aweaver@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 09:18:18 by aweaver           #+#    #+#             */
-/*   Updated: 2022/11/16 11:35:39 by aweaver          ###   ########.fr       */
+/*   Updated: 2022/11/16 16:06:57 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,10 +51,4 @@ void	Fixed::setRawBits(int const raw)
 {
 	this->_raw = raw;
 	return ;
-}
-
-std::ostream & operator<<(std::ostream &flow, Fixed &fixed)
-{
-	flow << fixed.getRawBits();
-	return (flow);
 }

@@ -31,6 +31,7 @@
 *.out
 *.app
 ex00/firstCanon
+ex01/fixedNumber
 
 # Vim
 *tags

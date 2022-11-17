@@ -29,7 +29,7 @@ re: fclean
 	make all
 
 test:	$(NAME)
-		./$(NAME) toto.txt toto tata
+		./$(NAME)
 
 -include $(DEPS)
 

@@ -6,7 +6,7 @@
 /*   By: aweaver <aweaver@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 09:18:18 by aweaver           #+#    #+#             */
-/*   Updated: 2022/11/16 18:33:11 by aweaver          ###   ########.fr       */
+/*   Updated: 2022/11/17 12:45:02 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ Fixed::Fixed(const int raw)
 
 Fixed::Fixed(const float raw)
 {
-	this->_raw = (int)(raw * ft_pow(2, this->_bitSize));
+	this->_raw = roundf((raw * (float)ft_pow(2, this->_bitSize)));
 	return ;
 }
 

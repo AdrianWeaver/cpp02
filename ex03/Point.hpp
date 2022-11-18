@@ -6,7 +6,7 @@
 /*   By: aweaver <aweaver@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 13:03:24 by aweaver           #+#    #+#             */
-/*   Updated: 2022/11/17 13:17:43 by aweaver          ###   ########.fr       */
+/*   Updated: 2022/11/18 12:03:35 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ class Point
 	public:
 		Point(void);
 		~Point(void);
+		Point(Fixed x, Fixed y);
 		Point(Point const &);
 		Point & operator=(Point const &rhs);
 		const Fixed & getX(void) const;

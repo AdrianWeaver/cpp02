@@ -7,8 +7,8 @@ CPPFLAGS	= -MMD
 
 SRCS		=	main.cpp\
 				Fixed.cpp\
-				Point.cpp
-
+				Point.cpp\
+				bsp.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 DEPS = $(OBJS:.o=.d)
